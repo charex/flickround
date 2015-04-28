@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04203CBB1AED766100939821 /* YRNFlickrPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 04203CBA1AED766100939821 /* YRNFlickrPhoto.m */; };
+		0429A2391AED5A6E00BF110A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A2381AED5A6E00BF110A /* main.m */; };
+		0429A23C1AED5A6E00BF110A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A23B1AED5A6E00BF110A /* AppDelegate.m */; };
+		0429A2421AED5A6E00BF110A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0429A2401AED5A6E00BF110A /* Main.storyboard */; };
+		0429A2441AED5A6E00BF110A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0429A2431AED5A6E00BF110A /* Images.xcassets */; };
+		0429A2471AED5A6E00BF110A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0429A2451AED5A6E00BF110A /* LaunchScreen.xib */; };
+		0429A2531AED5A6E00BF110A /* FlickroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0429A2521AED5A6E00BF110A /* FlickroundTests.m */; };
+		0429A25E1AED638400BF110A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0429A25D1AED638400BF110A /* MapKit.framework */; };
+		04DF186F1AED7F8C00479CA9 /* YRNDataStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF186E1AED7F8C00479CA9 /* YRNDataStore.m */; };
+		04DF18721AED8C5400479CA9 /* YRNPhotoAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF18711AED8C5400479CA9 /* YRNPhotoAnnotation.m */; };
+		84A25B1C1AEF893E00B98E28 /* YRNMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A25B1B1AEF893E00B98E28 /* YRNMapViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0429A24D1AED5A6E00BF110A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0429A22B1AED5A6E00BF110A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0429A2321AED5A6E00BF110A;
+			remoteInfo = Flickround;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04203CB91AED766100939821 /* YRNFlickrPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNFlickrPhoto.h; sourceTree = "<group>"; };
+		04203CBA1AED766100939821 /* YRNFlickrPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNFlickrPhoto.m; sourceTree = "<group>"; };
+		0429A2331AED5A6E00BF110A /* flickround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickround.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429A2371AED5A6E00BF110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429A2381AED5A6E00BF110A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0429A23A1AED5A6E00BF110A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0429A23B1AED5A6E00BF110A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0429A2411AED5A6E00BF110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0429A2431AED5A6E00BF110A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0429A2461AED5A6E00BF110A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0429A24C1AED5A6E00BF110A /* FlickroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0429A2511AED5A6E00BF110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0429A2521AED5A6E00BF110A /* FlickroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlickroundTests.m; sourceTree = "<group>"; };
+		0429A25C1AED625900BF110A /* Flickround-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Flickround-Prefix.pch"; sourceTree = "<group>"; };
+		0429A25D1AED638400BF110A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04DF186D1AED7F8C00479CA9 /* YRNDataStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNDataStore.h; sourceTree = "<group>"; };
+		04DF186E1AED7F8C00479CA9 /* YRNDataStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNDataStore.m; sourceTree = "<group>"; };
+		04DF18701AED8C5400479CA9 /* YRNPhotoAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNPhotoAnnotation.h; sourceTree = "<group>"; };
+		04DF18711AED8C5400479CA9 /* YRNPhotoAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNPhotoAnnotation.m; sourceTree = "<group>"; };
+		84A25B1A1AEF893E00B98E28 /* YRNMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YRNMapViewController.h; sourceTree = "<group>"; };
+		84A25B1B1AEF893E00B98E28 /* YRNMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YRNMapViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0429A2301AED5A6E00BF110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429A25E1AED638400BF110A /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429A2491AED5A6E00BF110A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04203CB81AED761B00939821 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DF186D1AED7F8C00479CA9 /* YRNDataStore.h */,
+				04DF186E1AED7F8C00479CA9 /* YRNDataStore.m */,
+				04203CB91AED766100939821 /* YRNFlickrPhoto.h */,
+				04203CBA1AED766100939821 /* YRNFlickrPhoto.m */,
+				04DF18701AED8C5400479CA9 /* YRNPhotoAnnotation.h */,
+				04DF18711AED8C5400479CA9 /* YRNPhotoAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0429A22A1AED5A6E00BF110A = {
+			isa = PBXGroup;
+			children = (
+				0429A2351AED5A6E00BF110A /* Flickround */,
+				0429A24F1AED5A6E00BF110A /* FlickroundTests */,
+				0429A2341AED5A6E00BF110A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0429A2341AED5A6E00BF110A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0429A2331AED5A6E00BF110A /* flickround.app */,
+				0429A24C1AED5A6E00BF110A /* FlickroundTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0429A2351AED5A6E00BF110A /* Flickround */ = {
+			isa = PBXGroup;
+			children = (
+				04203CB81AED761B00939821 /* Model */,
+				84A25B191AEF892000B98E28 /* Controller */,
+				0429A23A1AED5A6E00BF110A /* AppDelegate.h */,
+				0429A23B1AED5A6E00BF110A /* AppDelegate.m */,
+				0429A2401AED5A6E00BF110A /* Main.storyboard */,
+				0429A2431AED5A6E00BF110A /* Images.xcassets */,
+				0429A2451AED5A6E00BF110A /* LaunchScreen.xib */,
+				0429A2361AED5A6E00BF110A /* Supporting Files */,
+			);
+			path = Flickround;
+			sourceTree = "<group>";
+		};
+		0429A2361AED5A6E00BF110A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0429A25D1AED638400BF110A /* MapKit.framework */,
+				0429A2371AED5A6E00BF110A /* Info.plist */,
+				0429A2381AED5A6E00BF110A /* main.m */,
+				0429A25C1AED625900BF110A /* Flickround-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0429A24F1AED5A6E00BF110A /* FlickroundTests */ = {
+			isa = PBXGroup;
+			children = (
+				0429A2521AED5A6E00BF110A /* FlickroundTests.m */,
+				0429A2501AED5A6E00BF110A /* Supporting Files */,
+			);
+			path = FlickroundTests;
+			sourceTree = "<group>";
+		};
+		0429A2501AED5A6E00BF110A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0429A2511AED5A6E00BF110A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84A25B191AEF892000B98E28 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84A25B1A1AEF893E00B98E28 /* YRNMapViewController.h */,
+				84A25B1B1AEF893E00B98E28 /* YRNMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0429A2321AED5A6E00BF110A /* flickround */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429A2561AED5A6E00BF110A /* Build configuration list for PBXNativeTarget "flickround" */;
+			buildPhases = (
+				0429A22F1AED5A6E00BF110A /* Sources */,
+				0429A2301AED5A6E00BF110A /* Frameworks */,
+				0429A2311AED5A6E00BF110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flickround;
+			productName = Flickround;
+			productReference = 0429A2331AED5A6E00BF110A /* flickround.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0429A24B1AED5A6E00BF110A /* FlickroundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0429A2591AED5A6E00BF110A /* Build configuration list for PBXNativeTarget "FlickroundTests" */;
+			buildPhases = (
+				0429A2481AED5A6E00BF110A /* Sources */,
+				0429A2491AED5A6E00BF110A /* Frameworks */,
+				0429A24A1AED5A6E00BF110A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0429A24E1AED5A6E00BF110A /* PBXTargetDependency */,
+			);
+			name = FlickroundTests;
+			productName = FlickroundTests;
+			productReference = 0429A24C1AED5A6E00BF110A /* FlickroundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0429A22B1AED5A6E00BF110A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YRN;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yron Lab";
+				TargetAttributes = {
+					0429A2321AED5A6E00BF110A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					0429A24B1AED5A6E00BF110A = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 0429A2321AED5A6E00BF110A;
+					};
+				};
+			};
+			buildConfigurationList = 0429A22E1AED5A6E00BF110A /* Build configuration list for PBXProject "Flickround" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0429A22A1AED5A6E00BF110A;
+			productRefGroup = 0429A2341AED5A6E00BF110A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0429A2321AED5A6E00BF110A /* flickround */,
+				0429A24B1AED5A6E00BF110A /* FlickroundTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0429A2311AED5A6E00BF110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429A2421AED5A6E00BF110A /* Main.storyboard in Resources */,
+				0429A2471AED5A6E00BF110A /* LaunchScreen.xib in Resources */,
+				0429A2441AED5A6E00BF110A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429A24A1AED5A6E00BF110A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0429A22F1AED5A6E00BF110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DF186F1AED7F8C00479CA9 /* YRNDataStore.m in Sources */,
+				84A25B1C1AEF893E00B98E28 /* YRNMapViewController.m in Sources */,
+				04203CBB1AED766100939821 /* YRNFlickrPhoto.m in Sources */,
+				04DF18721AED8C5400479CA9 /* YRNPhotoAnnotation.m in Sources */,
+				0429A23C1AED5A6E00BF110A /* AppDelegate.m in Sources */,
+				0429A2391AED5A6E00BF110A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0429A2481AED5A6E00BF110A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0429A2531AED5A6E00BF110A /* FlickroundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0429A24E1AED5A6E00BF110A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0429A2321AED5A6E00BF110A /* flickround */;
+			targetProxy = 0429A24D1AED5A6E00BF110A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0429A2401AED5A6E00BF110A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0429A2411AED5A6E00BF110A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0429A2451AED5A6E00BF110A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0429A2461AED5A6E00BF110A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0429A2541AED5A6E00BF110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0429A2551AED5A6E00BF110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0429A2571AED5A6E00BF110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PREFIX_HEADER = "Flickround/Flickround-Prefix.pch";
+				INFOPLIST_FILE = Flickround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0429A2581AED5A6E00BF110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PREFIX_HEADER = "Flickround/Flickround-Prefix.pch";
+				INFOPLIST_FILE = Flickround/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0429A25A1AED5A6E00BF110A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlickroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flickround.app/Flickround";
+			};
+			name = Debug;
+		};
+		0429A25B1AED5A6E00BF110A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FlickroundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flickround.app/Flickround";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0429A22E1AED5A6E00BF110A /* Build configuration list for PBXProject "Flickround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429A2541AED5A6E00BF110A /* Debug */,
+				0429A2551AED5A6E00BF110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429A2561AED5A6E00BF110A /* Build configuration list for PBXNativeTarget "flickround" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429A2571AED5A6E00BF110A /* Debug */,
+				0429A2581AED5A6E00BF110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0429A2591AED5A6E00BF110A /* Build configuration list for PBXNativeTarget "FlickroundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0429A25A1AED5A6E00BF110A /* Debug */,
+				0429A25B1AED5A6E00BF110A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0429A22B1AED5A6E00BF110A /* Project object */;
+}

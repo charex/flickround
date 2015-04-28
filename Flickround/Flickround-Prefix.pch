@@ -1,0 +1,20 @@
+//
+//  Flickround-Prefix.pch
+//  Flickround
+//
+//  Created by Marco on 26/04/15.
+//  Copyright (c) 2015 Yron Lab. All rights reserved.
+//
+
+#ifndef Flickround_Flickround_Prefix_pch
+#define Flickround_Flickround_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+@import MapKit;
+
+#import "YRNDataStore.h"
+#import "YRNFlickrPhoto.h"
+
+#endif
