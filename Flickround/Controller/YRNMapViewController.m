@@ -99,7 +99,17 @@
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated
-{    
+{
+    if ((self.firstLoad) && ([CLLocationManager authorizationStatus] != kCLAuthorizationStatusNotDetermined))
+    {
+        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusDenied)
+        {
+            self.firstLoad = NO;
+        }
+        
+        // Don't look for photos while positioning the first time, unless we don't have yet answered about location services permissions
+        return;
+    }
     __weak typeof(self) weakSelf = self;
     // Map has been scrolled, download new photos
     [self.dataStore downloadPhotos:mapView.visibleMapRect withCompletionHandler:^(NSArray *photos, NSError *error) {
